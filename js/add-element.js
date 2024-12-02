@@ -42,7 +42,7 @@ function convertLi() {
   var userInput = $(this).val();
   console.log(userInput);
   $('#todo').append('<li class="cool">' + userInput + '</li>');
-  $('li').click(changeStyle);
+  $('input').click(changeStyle);
   $(this).remove();
   
   
